@@ -1,5 +1,5 @@
 
-Week9: Tree & binary tree
-Week10: Priority queue
-Week11: Binary search tree
-Week12: Hashmap
+Week9: Tree & binary tree <br />
+Week10: Priority queue <br />
+Week11: Binary search tree <br />
+Week12: Hashmap <br />

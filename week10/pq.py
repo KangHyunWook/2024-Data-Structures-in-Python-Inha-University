@@ -16,13 +16,11 @@ def push(item):
 
     pq[i]=item
 
-    print('n:', n)
     while (i!=1 and item > pq[i//2]):
 
         pq[i]=pq[i//2]
         i=i//2
 
-        print('i:', i)    
     pq[i]=item
 
 if __name__=='__main__':

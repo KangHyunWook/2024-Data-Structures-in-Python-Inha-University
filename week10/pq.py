@@ -6,6 +6,8 @@ Description: This program demonstrates an implementation of push
             procedure to a priority queue using a heap.
 '''
 
+import argparse
+
 def push(item):
     
     global n
@@ -24,7 +26,13 @@ def push(item):
     pq[i]=item
 
 if __name__=='__main__':
-
+    parser = argparse.ArgumentParser('settings')
+    parser.add_argument('--file-path', required=True, help='The path of a file, which contains input numbers')
+    
+    args=vars(parser.parse_args())
+    
+    print('input file path:', args['file_path'])
+    
     n=0
     
     pq=[0]*100
